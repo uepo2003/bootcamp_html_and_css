@@ -1,0 +1,28 @@
+/* 共通のCSS */
+/* <link href="https://fonts.googleapis.com/css?family=Roboto:400,700"
+rel="stylesheet"> */
+/* Mac でも Windows でも使えるFont */
+
+@font-face {
+  font-family: 'RobotoLocal';
+  src: url('../fonts/Roboto-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'RobotoLocal';
+  src: url('../fonts/Roboto-Bold.ttf');
+  font-weight: bold;
+  font-style: bold;
+}
+
+body {
+  font-family: "RobotoLocal";
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
